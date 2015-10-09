@@ -13,6 +13,8 @@
 		C66C780E1BC61CA000CF2724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C66C780C1BC61CA000CF2724 /* Main.storyboard */; };
 		C66C78101BC61CA000CF2724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C66C780F1BC61CA000CF2724 /* Assets.xcassets */; };
 		C66C78131BC61CA000CF2724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C66C78111BC61CA000CF2724 /* LaunchScreen.storyboard */; };
+		C66C781F1BC7A06800CF2724 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C66C781E1BC7A06800CF2724 /* WebViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C66C78221BC7A15600CF2724 /* AKTimerProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = C66C78211BC7A15600CF2724 /* AKTimerProgressView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		C66C780F1BC61CA000CF2724 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C66C78121BC61CA000CF2724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C66C78141BC61CA000CF2724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C66C781D1BC7A06800CF2724 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		C66C781E1BC7A06800CF2724 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		C66C78201BC7A15600CF2724 /* AKTimerProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTimerProgressView.h; sourceTree = "<group>"; };
+		C66C78211BC7A15600CF2724 /* AKTimerProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTimerProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				C66C78071BC61CA000CF2724 /* AppDelegate.m */,
 				C66C78091BC61CA000CF2724 /* ViewController.h */,
 				C66C780A1BC61CA000CF2724 /* ViewController.m */,
+				C66C781D1BC7A06800CF2724 /* WebViewController.h */,
+				C66C781E1BC7A06800CF2724 /* WebViewController.m */,
+				C66C78201BC7A15600CF2724 /* AKTimerProgressView.h */,
+				C66C78211BC7A15600CF2724 /* AKTimerProgressView.m */,
 				C66C780C1BC61CA000CF2724 /* Main.storyboard */,
 				C66C780F1BC61CA000CF2724 /* Assets.xcassets */,
 				C66C78111BC61CA000CF2724 /* LaunchScreen.storyboard */,
@@ -152,6 +162,8 @@
 				C66C780B1BC61CA000CF2724 /* ViewController.m in Sources */,
 				C66C78081BC61CA000CF2724 /* AppDelegate.m in Sources */,
 				C66C78051BC61CA000CF2724 /* main.m in Sources */,
+				C66C781F1BC7A06800CF2724 /* WebViewController.m in Sources */,
+				C66C78221BC7A15600CF2724 /* AKTimerProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +312,7 @@
 				C66C78191BC61CA000CF2724 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
